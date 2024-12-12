@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Brands() {
   return (
-    <section className="flex justify-between my-20">
+    <section className="flex justify-between my-20 flex-wrap">
       <Image
         src="/amazon.png"
         alt="Amazon"
