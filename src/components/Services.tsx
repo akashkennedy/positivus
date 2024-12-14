@@ -56,7 +56,7 @@ export default function Services() {
           businesses grow and suceed online. These services include:
         </p>
       </div>
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
         {services.map((service) => (
           <Service
             title={service.title}
