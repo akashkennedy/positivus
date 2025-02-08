@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Services from "@/components/Services";
 import FreeProposal from "@/components/FreeProposal";
+import CaseStudies from "@/components/CaseStudies";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <Brands />
       <Services />
       <FreeProposal />
+      <CaseStudies />
     </main>
   );
 }
+
